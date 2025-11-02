@@ -18,7 +18,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = update.message.text
     if text == "اره":
-        await update.message.reply_text("آخ گفتی منم میخوام :(")
+        await update.message.reply_text("آخ گفتی مسیبسشبیشسیب میخوام :(")
     elif text == "نه":
         await update.message.reply_text("مهم نیست برام")
     else:
@@ -36,3 +36,4 @@ app.run_polling(
     close_loop=False
 )
 #=============================================
+
